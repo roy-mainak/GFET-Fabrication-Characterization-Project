@@ -1,47 +1,45 @@
-# GFET Fabrication and Characterization
+# GFET Fabrication and Characterization Project
 
-This project documents the fabrication and electrical characterization of a Graphene Field Effect Transistor (GFET) using lithography, e-beam metal deposition, and bubbling transfer of CVD-grown graphene.
+This repository documents the fabrication and electrical characterization of a Graphene Field Effect Transistor (GFET). The device was built using photolithography, e-beam PVD metal deposition, and bubbling transfer of CVD-grown graphene.
+
+---
 
 ## 📄 Reports
 
-- [Lab Report (PDF)](Report/Lab_Report_MicroNano.pdf)
-- [Final Presentation (Slides)](Report/LMAN_Presentation_Final.pdf)
+- 📘 [Lab Report (PDF)](Report/Lab_Report_MicroNano.pdf)
+- 📊 [Final Presentation (Slides)](Report/LMAN_Presentation_Final.pdf)
 
 ---
 
 ## 🔬 Microscope Images
 
-### Full Contact View
-![Top view of GFET](Images/GFET_TopView_III25.jpg)
+### Full Contact View – Device III-25
 
-### Channel Dimensions (15 µm × 50 µm)
-![Channel Geometry](Images/GFET_ChannelDimensions_III25.jpg)
+<img src="Images/2024-07-22 - Group 4 - S2 - III25 - 01.jpg" alt="GFET Contact View" width="600"/>
 
----
-
-## 📊 IV Curve Measurement
-
-![IV Curve](Images/IV_Curve_GFET_III25.jpg)
-
-- Device: III-25
-- Gate voltage sweep: **-30V to +70V** in **0.5V** steps
-- Drain bias: **0.1V**
-- Dirac point observed at: **VGS ≈ +4V**
-
-### 📂 Raw Data
-- [Original KEITHLEY Output](Data/Group_4_S2_III25.xls)
-- [Converted CSV Format](Data/iv_curve.csv)
+> Contact pads and channel structure after successful lithography and metal lift-off.
 
 ---
 
-## 📈 Charge Carrier Mobilities
+### Zoomed-In Graphene Channel
 
-| Carrier  | Mobility (cm²/V·s) |
-|----------|--------------------|
-| Electrons (μe) | 229.78             |
-| Holes (μh)     | 477.32             |
+<img src="Images/2024-07-22 - Group 4 - S2 - III25 - 02.jpg" alt="GFET Channel Dimensions" width="600"/>
 
-These values were extracted using the **linear region method** applied to the IV-curve.
+> Channel dimensions: **Length = 15 µm**, **Width = 50 µm**.  
+> These dimensions were used in the charge carrier mobility calculation.
 
 ---
+
+## 📈 IV Curve – Device III-25
+
+<img src="Images/Group 4 S2 - III25.jpg" alt="IV Curve of GFET" width="600"/>
+
+> IV Characteristics measured using KEITHLEY 4200-SCS.  
+> Sweep: **Gate Voltage -30V to +70V**, **Drain Bias 0.1V**
+
+**Dirac Point**: V<sub>GS</sub> ≈ +4V  
+**Raw Data File**: [Group_4_S2_III25.xls](Data/Group_4_S2_III25.xls)
+
+---
+
 
