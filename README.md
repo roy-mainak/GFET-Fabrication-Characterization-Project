@@ -23,7 +23,7 @@ This repository documents the fabrication and electrical characterization of a G
 
 ### Zoomed-In Graphene Channel
 
-<img src="Images/2024-07-22 - Group 4 - S2 - III25 - 02.jpg" alt="GFET Channel Dimensions" width="600"/>
+<img src="Images/GFET_Channel_Dimensions.jpg" alt="GFET Channel Dimensions" width="600"/>
 
 > Channel dimensions: **Length = 15 µm**, **Width = 50 µm**.  
 > These dimensions were used in the charge carrier mobility calculation.
