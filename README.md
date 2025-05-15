@@ -15,7 +15,7 @@ This repository documents the fabrication and electrical characterization of a G
 
 ### Full Contact View – Device III-25
 
-<img src="Images/2024-07-22 - Group 4 - S2 - III25 - 01.jpg" alt="GFET Contact View" width="600"/>
+<img src="Images/GFET_Top_View.jpg" alt="GFET Contact View" width="600"/>
 
 > Contact pads and channel structure after successful lithography and metal lift-off.
 
