@@ -32,7 +32,7 @@ This repository documents the fabrication and electrical characterization of a G
 
 ## 📈 IV Curve – Device III-25
 
-<img src="Images/IV Curve.jpg" alt="IV Curve of GFET" width="600"/>
+<img src="Data/IV Curve.jpg" alt="IV Curve of GFET" width="600"/>
 
 > IV Characteristics measured using KEITHLEY 4200-SCS.  
 > Sweep: **Gate Voltage -30V to +70V**, **Drain Bias 0.1V**
