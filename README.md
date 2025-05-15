@@ -38,7 +38,7 @@ This repository documents the fabrication and electrical characterization of a G
 > Sweep: **Gate Voltage -30V to +70V**, **Drain Bias 0.1V**
 
 **Dirac Point**: V<sub>GS</sub> ≈ +4V  
-**Raw Data File**: [Group_4_S2_III25.xls](Data/Group_4_S2_III25.xls)
+**Raw Data File**: [IV Data.xls](Data/IV Data.xls)
 
 ---
 
