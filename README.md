@@ -1,18 +1,18 @@
 # GFET Fabrication & Characterization Project
 
-This project documents the fabrication and electrical characterization of a Graphene Field-Effect Transistor (GFET). Emphasis is placed on clear data handling, analysis reproducibility, and visualization workflows that reflect good engineering practices. The project combines Excel-based manual charting with Python scripting for automation and repeatability.
+This project documents the fabrication and electrical characterization of a Graphene Field-Effect Transistor (GFET). Emphasis is placed on reproducible analysis, precise documentation, and cross-tool workflows using both Excel and Python. The data and insights here reflect good engineering practice relevant to semiconductor process monitoring and quality control.
 
-The device was fabricated using:
+The GFET device was fabricated using:
 
-* **Photolithography** for pattern definition
+* **Photolithography** for patterning electrodes
 * **E-beam PVD** for metal deposition
-* **Bubbling transfer** of CVD-grown graphene onto SiO₂/Si substrates
+* **Bubbling transfer** of CVD-grown graphene onto SiO₂/Si substrate
 
 ---
 
-## 📊 Objective
+## 🎯 Objective
 
-To characterize the transfer curve (Drain Current vs. Gate Voltage) of a fabricated GFET and present the results using both manual and automated analysis methods.
+To extract and visualize the **transfer characteristics** (Drain Current vs. Gate Voltage) of a fabricated GFET using both manual (Excel) and automated (Python) workflows.
 
 ---
 
@@ -33,70 +33,51 @@ To characterize the transfer curve (Drain Current vs. Gate Voltage) of a fabrica
 ### Zoomed-In Graphene Channel
 
 <img src="Images/GFET_Channel_Dimensions.jpg" alt="GFET Channel Dimensions" width="600"/>
-> Channel dimensions: **Length = 15 µm**, **Width = 50 µm**.  
-> These dimensions were used in the charge carrier mobility calculation.
+> Channel dimensions: **Length = 15 µm**, **Width = 50 µm**. Used in carrier mobility calculation.
 
 ---
 
-## 📊 IV Curve – Device III-25
+## 📊 Transfer Characteristics
 
-<img src="Data/IV Curve.jpg" alt="IV Curve of GFET" width="600"/>
-> IV Characteristics measured using KEITHLEY 4200-SCS.  
-> Sweep: **Gate Voltage -30V to +70V**, **Drain Bias 0.1V**  
-> **Dirac Point**: V<sub>GS</sub> ≈ +4V  
-> **Raw Data File**: `Data/IV_Data_Charted.xlsx`
+### Excel Analysis
 
----
+<img src="Images/IV Curve (Plotted in Excel).png" alt="IV Curve Excel Plot" width="600"/>
+> Excel plot showing transfer characteristics of the GFET using converted µA values.
 
-## 📊 Excel + Python Visualization
+### Python Plot
 
-### Excel Workflow
-
-* Drain current was converted from amperes to microamperes
-* Plotted in Excel with labeled axes and fine-tuned formatting
-
-### Python Workflow
-
-* Script in `Analysis/plot_iv_characteristics.py`
-* Reads data and plots transfer characteristics with Matplotlib
-
-```bash
-cd Analysis
-python plot_iv_characteristics.py
-```
+<img src="Images/gfet_transfer_plot.png" alt="GFET Transfer Characteristics" width="600"/>
+> Matplotlib plot generated from `IV_Data_Charted.xlsx` using Python for automation.
 
 ---
 
-### 📊 Final Transfer Curve Plot
+## 🔧  Engineering Relevance for Process Monitoring and Data Analysis
 
-<img src="Images/gfet_transfer_plot.png" alt="GFET Transfer Characteristics" width="700"/>
+This project demonstrates:
 
----
-
-## 💡 Engineering Practice & Data Handling Highlights
-
-This project highlights:
-
-* Reproducible workflows using Excel and Python
-* Scientific formatting and unit conversions for presentation
-* Documentation aligning with traceability and audit-readiness
-* Image-supported reporting of physical device metrics
-* Familiarity with semiconductor measurement setups
+* 📊 **Data normalization and scientific plotting**
+* 🧾 **Documentation alignment with traceability & reproducibility standards**
+* 🧪 **Semiconductor test equipment usage (e.g., KEITHLEY 4200)**
+* 🛠️ **Microscopy for device structure verification**
+* 📁 **Cross-tool workflow integration (Excel + Python)**
+* ⚙️ **Use of version control for lab data and analysis artifacts**
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 
 ```
 GFET-Fabrication-Characterization-Project/
-├── Data/
-│   └── IV_Data_Charted.xlsx (Main)
 ├── Analysis/
 │   └── plot_iv_characteristics.py
+├── Data/
+│   └── IV_Data.xls
+│   └── IV_Data_Charted.xlsx
 ├── Images/
 │   └── GFET_Top_View.jpg
 │   └── GFET_Channel_Dimensions.jpg
 │   └── gfet_transfer_plot.png
+│   └── IV Curve (Plotted in Excel).png
 ├── Report/
 │   └── Lab_Report_MicroNano.pdf
 │   └── LMAN_Presentation_Final.pdf
@@ -105,8 +86,13 @@ GFET-Fabrication-Characterization-Project/
 
 ---
 
+## 📜 License
+
+This repository is open for academic and demonstration purposes.
+
+---
+
 ## 👤 Author
 
-Mainak Roy
-
-
+**Mainak Roy**
+[LinkedIn](https://www.linkedin.com/in/roy-mainak) 
