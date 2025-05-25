@@ -73,7 +73,7 @@ python plot_iv_characteristics.py
 
 ---
 
-## 💡 Relevance for Quality/Process Engineering Roles
+## 💡 Engineering Practice & Data Handling Highlights
 
 This project highlights:
 
